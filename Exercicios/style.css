@@ -1,0 +1,41 @@
+html,
+body {
+    margin-top: 2%;
+    margin-left: 1%;
+   
+}
+.box-nome-dados{
+    display: block;
+}
+.title-nome{
+    font-size: 25px;
+    color: #0F1539;
+    height: 42px;
+}
+.dados-pessoais,#link{
+    color:#509a43;
+    font-weight: bold; 
+    font-size: 15px;
+}
+.title-objetivo,.title-formacao,.title-experiencia,.title-reconhecimento{
+    color: #0F1539;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    height: 19px;
+    font-size: 20px;
+}
+.dados-objetivo,.dados-formacao,.dados-experiencia-empresas,.dados-reconhecimento{
+    width: 81%;
+    font-size: 19px;
+}
+.dados-periodo{
+    color:#509a43;
+    font-weight: bold; 
+    font-size: 19px;
+    height: 4px;
+    margin-bottom: 5px;
+}
+.dados-cargo{
+    font-weight: bold;
+    color: #0F1539;
+}

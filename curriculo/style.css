@@ -1,0 +1,17 @@
+html,body{
+    margin: 0%;
+}
+.container_nome{
+    display: flex;
+    justify-content: center;
+}
+.itens_nome{
+    color: black; 
+    font-size: 50px;
+    font-weight: 100;
+    
+}
+.itens_contato{
+    display: flex;
+    justify-content: center;
+}

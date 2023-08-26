@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0% 1% 0% 1%;
+    
+    
+  }
+  
+  .container {
+    display: flex; /*alinha os containers verticalmente*/
+    justify-content: space-between; /*Isso distribui o espaço disponível entre os itens*/
+    align-items: center; /*Isso centraliza os itens verticalmente no contêiner. Eles ficam no centro vertical*/
+    height: 100vh; /*Defijna a Altura */
+   
+  }
+  
+  .quadrado {
+    width: 400px;
+    height: 300px;
+  }
+  
+  /* Estilização adicional para melhorar a visualização */
+  .quadrado:nth-child(1) {
+    background-color: blue;
+   
+  }
+  
+  .quadrado:nth-child(2) {
+    background-color: red;
+  }

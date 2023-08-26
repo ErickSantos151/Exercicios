@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Organiza os itens verticalmente em dispositivos móveis */
+  }
+  
+  .quadrado1{
+    width: 300px;
+    height: 300px;
+    margin: 10px; /* Espaço entre os quadrados */
+    background-color: blue;
+    
+  }
+  .quadrado2{
+    width: 300px;
+    height: 300px;
+    margin: 10px; /* Espaço entre os quadrados */
+    background-color: red;
+  }
+  

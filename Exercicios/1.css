@@ -1,0 +1,25 @@
+body{
+    
+    height: 100vh;
+    margin: 0% 1% 0% 1%
+   
+   
+
+}
+.container{
+    display: flex; /*alinha os containers verticalmente*/
+    justify-content: space-between; /*Isso distribui o espaço disponível entre os itens*/
+    align-items: center; /*Isso centraliza os itens verticalmente no contêiner. Eles ficam no centro vertical*/
+    height: 100vh; /*Defijna a Altura */
+    
+}
+.vermelho{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+.azul{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
