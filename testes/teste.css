@@ -1,0 +1,44 @@
+
+.box-nome{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+  background: rgb(246, 140, 2);
+  margin: 50px auto;
+  position: relative;
+}
+.box-nome img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 50%; /* centraliza horizontalmente */
+  transform: translateX(-50%);  
+  z-index: 1;
+}
+.box-nome::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: white; /* fundo branco para cobrir a parte de baixo da bola */
+  pointer-events: none;
+  z-index: 0;
+  margin: -0%;
+}
+.box-nome::after{
+  content: '';
+  position: absolute;
+  left: 50%; /* centraliza a bola horizontalmenste */
+  width: 50px; /* largura da bola */
+  height: 50px; /* altura da bola */
+  background: white; /* cor da bola */
+  border-radius: 50%; /* torna a bola circular */
+  z-index: -1; /* coloca a bola atrás da imagem */
+}
+
+
