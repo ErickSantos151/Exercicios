@@ -5,16 +5,12 @@ body{
 
 }
 
-.box-dadosecontatos{
-  display: flex;  
+.box-dadosecontatos{ 
   margin-bottom: 50px;
 }
-.box-fotonome{
-  width: 50%;
-}
+
 .box-contato{
   display: flex;
-  width: 50%;
   flex-direction: column;  
   justify-content: flex-end;  
   margin: 5px 0 ;
@@ -27,8 +23,6 @@ body{
 }
 .box-dadoscontatos{
   
-  
-
 }
 #contatos{
 
@@ -84,7 +78,6 @@ body{
   width: auto;
   align-items: center;
   
-  
 }
 #profissao{
   display: flex;
@@ -124,7 +117,6 @@ body{
   margin-top: 5%;
 }
   
-
 .box-experiencia{
   width: 40%;
   display: flex;
