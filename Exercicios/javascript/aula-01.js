@@ -43,7 +43,7 @@ let funcionario = {
     genero: "Homen",
     escolaridade: "Ensino medio completo",
     estadoCivil: "Casado",
-   
+    empregado: false
 }
 console.log(funcionario.nome)
 
